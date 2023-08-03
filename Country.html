@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country and Capital</title>
+    <style>
+        h1 {
+            margin-top: 20px;
+        }
+
+        select {
+            margin-bottom: 10px;
+        }
+
+        .country-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .country-name {
+            margin-right: 10px;
+        }
+
+        .capital-info {
+            display: none;
+        }
+
+        /* Show the capital-info on hover */
+        .country-container:hover .capital-info {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a Country</h1>
+
+    <select>
+        <option value="">Select a country</option>
+        <option value="USA">United States of America</option>
+        <option value="UK">United Kingdom</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Japan">Japan</option>
+    </select>
+
+    <div class="country-container">
+        <span class="country-name">United States of America:</span>
+        <span class="capital-info">Washington, D.C.</span>
+    </div>
+    <div class="country-container">
+        <span class="country-name">United Kingdom:</span>
+        <span class="capital-info">London</span>
+    </div>
+    <div class="country-container">
+        <span class="country-name">Germany:</span>
+        <span class="capital-info">Berlin</span>
+    </div>
+    <div class="country-container">
+        <span class="country-name">France:</span>
+        <span class="capital-info">Paris</span>
+    </div>
+    <div class="country-container">
+        <span class="country-name">Japan:</span>
+        <span class="capital-info">Tokyo</span>
+    </div>
+</body>
+</html>

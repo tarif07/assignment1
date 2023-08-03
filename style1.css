@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #caa3a3;
+    color: #64d428;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #cc9292;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-section, .programs-section, .contact-section {
+    margin-bottom: 40px;
+  }
+  
+  .about-section h2, .programs-section h2, .contact-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .programs-section li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-section li {
+    margin-bottom: 5px;
+  }
+  

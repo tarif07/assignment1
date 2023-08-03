@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Three Column Layout with Audio and Video</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      display: flex;
+      width: 100%;
+    }
+
+    #left {
+      width: 20%;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+
+    #center {
+      width: 60%;
+      padding: 10px;
+    }
+
+    #right {
+      width: 20%;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+
+    audio,
+    video {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="left">
+      <!-- Contents of the pages go here -->
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+      </ul>
+    </div>
+    <div id="center">
+      <!-- Body of the page goes here -->
+      <h1>Welcome to My Webpage</h1>
+      <p>This is the main content of the page.</p>
+      <p id="section1">Section 1 content goes here.</p>
+      <p id="section2">Section 2 content goes here.</p>
+      <p id="section3">Section 3 content goes here.</p>
+      <audio controls>
+        <source src="10 Second Intro Music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <video controls>
+        <source src="Lionel Messi Status Video Download WhatsApp Status Video Download.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </div>
+    <div id="right">
+      <!-- Remarks go here -->
+      <h2>Remarks</h2>
+      <p>This is a placeholder for remarks or additional information.</p>
+    </div>
+  </div>
+</body>
+</html>
